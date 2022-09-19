@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import Info from "./components/Info/info";
 import About from "./components/About/about";
+import Interests from "./components/Interests/interests";
 import './style.css';
 
 class App extends React.Component
@@ -12,6 +13,7 @@ class App extends React.Component
         <div className="app--container">
             <Info />
             <About />
+            <Interests />
         </div>
         );
     }
