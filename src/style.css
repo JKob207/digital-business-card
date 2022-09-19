@@ -6,3 +6,11 @@ body
     background-color: #374151;
     font-family: 'Inter', sans-serif;
 }
+
+.app--container
+{
+    width: 317px;
+    margin: 0 auto;
+    margin-block: 20px;
+    background-color: #1A1B21;
+}
