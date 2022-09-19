@@ -1,0 +1,84 @@
+.about--container
+{
+    width: 317px;
+    margin: 0 auto;
+    margin-block: 50px;
+    background-color: #1A1B21;
+}
+
+.about--info
+{
+    padding-block: 21px;
+}
+
+.about--name
+{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+
+.about--job
+{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+    margin-block: 6px;
+}
+
+.about--buttons_container
+{
+    margin: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about--email_button, .about--LinkedIn_button
+{
+    padding: 9px 13px 9px 11px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.about--email_button
+{
+    background: #fff;
+    border: 1px solid #D1D5DB;
+}
+
+.about--email_button span::before
+{
+    content: "";
+    display: block;
+    background: url("../../images/email.png") no-repeat;
+    background-size: contain;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: 8px;
+}
+
+.about--LinkedIn_button
+{
+    background: #5093E2;
+    color: #fff;
+}
+
+.about--LinkedIn_button span::before
+{
+    content: "";
+    display: block;
+    background: url("../../images/linkedin.png") no-repeat;
+    background-size: contain;
+    height: 16px;
+    width: 16px;
+    float: left;
+    margin-right: 8px;
+}
