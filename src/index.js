@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import Info from "./components/Info/info";
 import About from "./components/About/about";
 import Interests from "./components/Interests/interests";
+import Footer from "./components/Footer/footer";
 import './style.css';
 
 class App extends React.Component
@@ -14,6 +15,7 @@ class App extends React.Component
             <Info />
             <About />
             <Interests />
+            <Footer />
         </div>
         );
     }
